@@ -1,0 +1,1 @@
+*This app is maintained by [Haylee Oyler](https://haylee360.github.io/) and is updated as needed for teaching purposes. Please report [any issues](https://github.com/haylee360/eds296-shiny/issues). Source code can be found on [GitHub](https://github.com/haylee360/eds296-shiny).*
