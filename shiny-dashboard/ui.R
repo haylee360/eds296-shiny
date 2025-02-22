@@ -25,6 +25,9 @@ sidebar <- dashboardSidebar(
 # dashboard body ----
 body <- dashboardBody(
   
+  # set theme ----
+  use_theme("dashboard-fresh-theme.css"),
+  
   # tabItems ----
   tabItems(
     
@@ -130,7 +133,7 @@ body <- dashboardBody(
                   
                   # leaflet output ----
                   leafletOutput(outputId = "lake_map_output")  
-                    # %>%  withSpinner(type = 6, color = "cornflowerblue")
+                  # %>%  withSpinner(type = 6, color = "cornflowerblue")
                   
               ) # END leaflet box
               

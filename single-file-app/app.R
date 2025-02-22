@@ -3,9 +3,17 @@ library(shiny)
 library(tidyverse)
 library(palmerpenguins)
 library(DT)
+library(bslib)
 
 # UI ----
 ui <- fluidPage(
+  
+  theme = bs_theme(
+    bg = "#A36F6F",
+    fg = "#FDF7F7",
+    primary = "#483132",
+    base_font = font_google("Rubik Dirt")
+  ), # END theme
 
   # app title ----
   tags$h1("My App Title"), 
